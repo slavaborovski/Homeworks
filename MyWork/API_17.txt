@@ -1,0 +1,54 @@
+﻿​​Lesson 17. API 
+
+
+Schema: https
+Base URL: em.staging.api.onereach.ai/http/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6
+Resource: /users
+
+
+1. CREATE user
+Request Body (JSON):
+name (required) - string, min 6, max 20 symbols
+age (required) - number, min 1 max 100
+gender (required) - string: only “male” or “female”
+city (optional) - string
+Response body example:
+{
+“name“:”pavel”,
+“age“:”37”,
+“gender“:”male”,
+“city“:”Kyiv”,
+“id“:”1505e6aa-0679-4258-860d-3a2284238446”
+}
+2. GET User
+Request Body: none
+Request params: id - string
+Response body example:
+{
+“name“:”pavel”,
+“age“:”37”,
+“gender“:”male”,
+“city“:”Kyiv”,
+“id“:”1505e6aa-0679-4258-860d-3a2284238446”
+}
+3. EDIT user
+Request Body (JSON):
+        id (required) - string
+name (required) - string, min 6, max 20 symbols
+age (required) - number, min 1 max 100
+gender (required) - string: only “male” or “female”
+city (optional) - string
+Request params: none
+Response body example:
+{
+User is updated
+}
+
+
+4. DELETE user
+Request Body: none
+Request params: id - string
+Response body example:
+{
+user deleted
+}

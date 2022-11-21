@@ -1,0 +1,40 @@
+﻿1. 2.  
+  
+
+  
+
+  
+
+  
+
+  
+
+Я робив ДЗ на комп’ютері фірми и тому використовував браузери, котрі були встановлені.
+
+
+
+
+3.
+  
+
+Font: Helvetica Neue Bold, sans-serif
+Font size: 16px
+Font color: #FFFFFF
+
+
+Я не мог найти background color, но потом нашел, что, если открыть DevTools через Firefox, там будет инструмент “пипетка”, который показывает цвет любой точки при наведении
+  
+
+Background color: #24a7ed
+
+
+Font Roboto, sans-serif
+Font size: 11px
+Font color: #CCCCCC
+
+
+
+
+  
+
+Background color: #ffffff

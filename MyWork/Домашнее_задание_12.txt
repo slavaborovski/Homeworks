@@ -1,0 +1,1501 @@
+﻿Test Case ID
+	TC010
+	Test Case Description
+	
+
+	Мобильное приложение “Дiя”
+	Created By
+	
+
+	Reviewed By
+	
+
+	Version
+	2.1
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	QA Tester’s Log
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Tester's Name
+	Вячеслав Боровский
+	Date Tested
+	23.10.2022
+	Test Case (Pass/Fail/Not Executed)
+	Pass
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	S #
+	Prerequisites:
+	
+
+	S #
+	Test Data
+	1
+	Access to Android 12
+	
+
+	1
+	Userid = Test
+	2
+	
+
+	
+
+	2
+	Pass = Test
+	3
+	
+
+	
+
+	3
+	
+
+	4
+	
+
+	
+
+	4
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Test Scenario
+	Высокоуровневый тест- кейс проверки мобилного приложения “Дiя”
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Step #
+	Step Details
+	Expected Results
+	Pass / Fail / Not executed / Suspended
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.
+	Нажать иконку Дiя” на экране мобильного устройства 
+	
+
+	
+
+	
+
+	
+
+	
+
+	2.
+	Ввести пин код или пройти идентификацию отпечатка пальца
+	
+
+	
+
+	
+
+	
+
+	
+
+	3.
+	По умолчанию открыта страница “Документы”
+	
+
+	
+
+	
+
+	
+
+	
+
+	4.
+	В хедере страницы находятся черная иконка приложения и кнопка сканера QR На первой странице открыто поле “Army of drones” с подразделами “Донат на дрон” для доната на дроны для ЗСУ, ВIйсковi облiгацii” для покупки военных облигаций, Е ворог” для информирования о передвижении вражеских войск. В футере страницы находятся иконки “Документи”, “Послуги”, “Повiдомлення”, “Меню”
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	5.
+	При пролистывании страницы вправо открывается перечень документов пользователя “Е документ”, “Картка платника податкiв”, Vaccination certificate”, “Закордонний паспорт”, “Посвiдчення водiя”. “Свiдоцтво про реестрацiю транспортного засобу”. При нажатии на каждый из документов открывается QR или штрих- код документа. При нажатии на кнопку “...” открывается полная информация о документе. В конце страницы находится поле “Додати документ” для добавления нового документа пользователя.
+	
+
+	
+
+	
+
+	
+
+	
+
+	6. 
+	При нажатии кнопки “Послуги” открывается страница с перечнем услуг
+	
+
+	
+
+	
+
+	
+
+	
+
+	7. 
+	При нажатии на кнопку “Повiдомлення” открывается страница со списком уведомлений
+	
+
+	
+
+	
+
+	8. 
+
+
+	При нажатии на кнопку “Меню” открывается меню приложения, включая кнопку “Выход”
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+Test Case ID
+	TC011
+	Test Case Description
+	
+
+	Добавить новый документ в “Дiя”
+	Created By
+	
+
+	Reviewed By
+	
+
+	Version
+	2.1
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	QA Tester’s Log
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Tester's Name
+	Вячеслав Боровский
+	Date Tested
+	23.10.2022
+	Test Case (Pass/Fail/Not Executed)
+	Pass
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	S #
+	Prerequisites:
+	
+
+	S #
+	Test Data
+	1
+	Access to Android 12
+	
+
+	1
+	Userid = Test
+	2
+	Приложение “Дiя” скачано и установлено.
+	
+
+	2
+	Pass = Test
+	3
+	Пользователь зарегестрирован в приложении
+	
+
+	3
+	
+
+	4
+	
+
+	
+
+	4
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	“
+	Test Scenario
+	Проверка возможности добавить новый документ в мобильном приложении “Дія”
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Step #
+	Step Details
+	Expected Results
+	Pass / Fail / Not executed / Suspended
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.
+	Нажмите иконку “Дiя” на экране мобильного устройства.
+	Страница идентификации открыта. Поле “Код для входу” открыто. Уведомление“Вход за бiометричними даними” 
+	
+
+	
+
+	
+
+	
+
+	2.
+	Приложите указательный палец правой руки с сканеру отпечатков пальцев устройства
+	Страница “Документи” открыта
+	
+
+	
+
+	
+
+	
+
+	3.
+	Пролистайте страницу “Документы” вправо до появления поля “Додати документ”
+	Поле “Додати документ” открыто
+	
+
+	
+
+	
+
+	 “
+	4.
+	Нажмите поле “Додати документи”
+	Список возможных документов открыт. Поля “Свiдоцтво про навродження дитини”, “COVID- сертифiкати”, “COVID- сертифiкати моiх дiтей”, “Пенсiйне посвiдчення” открыты. Кнопка “Х” для выхода открыта
+	
+
+	
+
+	
+
+	
+
+	5.
+	Нажмите поле “COVID- сертифiкати”
+	Страница “Моi COVID- сертифiкат” открыта. Уведомление о согласии на передачу данных. Черная кнопка “Почати”
+	
+
+	
+
+	
+
+	
+
+	6. 
+	Нажмите кнопку “Почати” 
+	Страница “Тип COVID- сертифiката” открыта. Поля “Вакцинацiя”, Негативний ПЛР- тест”, Одужання” активны. Поле “Внутрiшнiй сертифiкат не активно. Чек- поинт о согласии на передачу данных. Кнопка “Надiслати” не активна
+	
+
+	
+
+	
+
+	
+
+	 7.
+	Поле “Вакцинацiя” подтвердите галочкой. 
+	Чек- поинт о согласии на передачу данных. Кнопка “Надiслати” не активна
+	
+
+	
+
+	8.
+	Чек- поинт о согласии на передачу данных подтвердите галочкой
+	Кнопка “Надiслати” активна
+	
+
+	
+
+	9.
+	Нажмите кнопку “Надiслати” 
+	Уведомление “Дякуемо, запит надiслано”, кнопка “Зрозумило” акативна
+	
+
+	
+
+	10. 
+	Нажмите кнопку”Зрозумiло” 
+	Страница “Моi COVID- сертифiкати открыта
+	
+
+	
+
+	11.
+	Нажмите кнопку “Главное меню” на устройстве для выхода из приложения.
+	Страница главного мнею устройства открыто
+	
+
+	
+
+	
+
+
+
+
+
+
+
+Test Case ID
+	TC012
+	Test Case Description
+	
+
+	Проверка возможности доната в приложении “ДIя”
+	Created By
+	
+
+	Reviewed By
+	
+
+	Version
+	2.1
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	QA Tester’s Log
+	Review comments from Bill incorprate in version 2.1
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	“
+	Tester's Name
+	Вячеслав Боровский
+	Date Tested
+	07.10.2022
+	Test Case (Pass/Fail/Not Executed)
+	Pass
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	S #
+	Prerequisites:
+	
+
+	S #
+	Test Data
+	1
+	Access to Android 12
+	
+
+	1
+	Userid = Test
+	2
+	Приложение “Дiя” скачано и установлено.
+	
+
+	2
+	Pass = Test
+	3
+	Пользователь зарегестрирован в приложении
+	
+
+	3
+	
+
+	4
+	
+
+	
+
+	4
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Test Scenario
+	
+
+	Проверка возможности пожертвования денег для покупки дрона для ЗСУ
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Step #
+	Step Details
+	Expected Results
+	Pass / Fail / Not executed / Suspended
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.
+	Выполните пункты 1 и 2 из тест- кейса ТС011
+	Страница “Документи” открыта
+	
+
+	
+
+	
+
+	
+
+	2.
+	Нажмите Меню
+	Меню открылось
+	
+
+	
+
+	
+
+	
+
+	3.
+	Нажмите кнопку “Донат на дрон” 
+	Страница “Допомога армii” открыта. Поле для суммы доната открыто. Поля с предустановленной суммой “100”. “500”. “1000”. “5000” открыты. Кнопка “Перейти до оплати” не активна
+	
+
+	
+
+	
+
+	
+
+	4.
+	Нажмите поле с предустановленной суммой “1000”  
+	Поле для суммы доната заполнено “1000” Кнопка “Перейти до оплати” активна
+	
+
+	
+
+	
+
+	
+
+	5.
+	Кнопка “Перейти до оплати” нажата
+	Кнопки “Оплатить через GPay” и “Сплатити карткою” активны
+	
+
+	
+
+	
+
+	
+
+	6.
+	Кнопка “Сплатити карткою” нажата
+	Страница оплаты открыта. Поля “Номер картки”, “Срок дii”, “Код CVV” открыты. Кнопка для сканирования QR карты активна в поле “Номер картки”.Увеломление о сумме оплаты и комиссии доступно. Кнопка “Оплатити” не активна
+	
+
+	
+
+	
+
+	
+
+	7. 
+	Поля “Номер картки”, “Срок дii”, “Код CVV” заполнены валидными данными  
+	Кнопка “Оплатити” активна
+	
+
+	
+
+	8.
+	Кнопка “Оплатити” нажата
+	Получено уведомление из банковского приложения для подтверждения оплаты
+	
+
+	
+
+	9.
+	В банковском приложении нажата кнопка “Подтверждаю”
+	Получено уведомление из банка о списании денег с карты. В приложении “Дiя” получено уведомление “Дякуемо” 
+	
+
+	
+
+	10.
+	Выполните пункт 11 из тест- кейса ТС011
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+Test Case ID
+	TC013
+	Test Case Description
+	
+
+	Проверка QR и штрих кода заграничного паспорта в “Дiя”
+	Created By
+	
+
+	Reviewed By
+	
+
+	Version
+	2.1
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	QA Tester’s Log
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Tester's Name
+	Вячеслав Боровский
+	Date Tested
+	07.10.2022
+	Test Case (Pass/Fail/Not Executed)
+	Pass
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	S #
+	Prerequisites:
+	
+
+	S #
+	Test Data
+	1
+	
+
+	
+
+	1
+	Userid = Test
+	2
+	Access to Android 12
+	
+
+	2
+	Pass = Test
+	3
+	Приложение “Дiя” скачано и установлено.
+	
+
+	3
+	
+
+	4
+	Пользователь зарегестрирован в приложении
+	
+
+	4
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Test Scenario
+	Проверка возможности получения QR и штрих- кода заграничного паспорта в приложении “Дiя”
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	Step #
+	Step Details
+	Expected Results
+	Pass / Fail / Not executed / Suspended
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1.
+	Выполните пункты 1 и 2 из тест- кейса ТС011
+	Страница “Документи” приложения “Дiя” открыта по умолчанию. Список документов открыт
+	
+
+	
+
+	
+
+	
+
+	2.
+	Выберите поле “Закордонний паспорт” из списка документов
+	Поле “Закордонний паспорт” доступно
+	
+
+	
+
+	
+
+	
+
+	3.
+	Нажмите поле “Закордонний паспорт” 
+	Страница с QR колом открыта. Кнопка “QR” не активна. Кнопка “Штрих- код” активна
+	
+
+	
+
+	
+
+	
+
+	4.
+	Нажмите кнопка “Штрих- код”
+	Страница со штрих- кодом открыта
+	
+
+	
+
+	
+
+	
+
+	5. 
+	Выполните пункт 11 из тест- кейса ТС011
+	
+
+	
+
+	
+
+	
+
+	
+
+	3. Эстимация:
+* Метод 3х точек
+Вот информация из методички Beetroot:
+E = (a + m + b) / 3 
+Де: E = estimated cost (оцінка часу) a = optimistic value (оптимістичне значення) m = most likely value (реалістичне значення) b = pessimistic value (песимістичне значення)[4]
+
+
+А вот, что пишут в интернете ( DOU):
+Идея проста: чтобы оценить проект, разбиваете его на задачи и даете оценку каждой задаче с помощью 3 величин:
+* B — best case (оптимистическая) оценка срока, 95 % вероятности не уложиться в срок.
+* N — nominal (номинальная) оценка срока, 50 % вероятности уложиться в срок.
+* W — worst case (пессимистическая) оценка срока, 5 % вероятности не уложиться в срок.
+Среднее значение срока выполнения задачи (mean) рассчитывается как:
+M = (B + 4N + W)/6
+Почему коэффициент 4 для номинальной оценки? Потому что она наиболее реалистичная. И мы хотим выделить ее по сравнению с другими оценками. 
+
+
+
+
+            Делаем по методу “Среднее арифметическое”, как ты говорил на уроке
+ 
+  
+
+
+
+*  Метод WBS:
+
+
+  
+
+  
+
+CATS IN UA
+Test Strategy
+
+
+Revision History
+Date
+	Version
+	Author
+	Description
+	26/10/2022
+	1.12
+	Viacheslav Borovskyi
+	Strategy for testing a mobile app for sharing photos of cats
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1. Scope        3
+2. Test Approach        4
+3. Test Environment        5
+4. Testing Tools        6
+5. Release Control        7
+6. Risk Analysis        8
+7. Review and Approvals                                                                               9
+
+
+
+
+1. Scope
+It defines parameters like
+* Who will review the document
+* Product owner and project manager will review the document
+* Who will approve this document?
+* Product owner will approve this document
+* Testing activities carried out with timelines
+* All testing activities should be carried out before the end of the iteration
+
+
+2. Test Approach
+It defines
+* Process of testing 
+* Writing test scenario
+* Compilation of test data sets
+* Running Tests
+* Analysis of results
+* Testing levels
+* Component testing
+* Integration testing
+* System testing
+* Acceptance testing
+* Roles and responsibilities of each team member
+* QA engineer:
+1. Clearing of product requirements from the Product Owner and Project Manager
+2. Preparation of test documentation: test cases, checklists
+3. Quality control
+4. Autotest development
+5. Test scenario and selection of the necessary tests
+6. Testing, software analysis
+7. Filling out test documentation
+8. Analysis of found bugs
+9. Retesting after fixing code
+                   -     Project Manager
+                                  1.   Start and implementation of design work
+* Product Owner
+1. Communication with the customer
+2. Execution plan and product changes
+3. Communicate with users and study their needs
+4. Backlog
+5. Participation in the team expansion and recruitment process
+* Types of Testing ( Load testing, Security testing, Performance testing etc.)
+* Load testing
+* Security testing
+* Performance testing
+* Stress testing
+* Compatability testing
+
+
+
+
+* Testing approach & automation tool if applicable
+* Manual, automation, positive, negative
+* According to the scenario, Ad- hoc
+* Adding new defects, re-testing, Defect triage, Regression Testing and test sign off
+* Retesting, regression testing
+* Acceptance testing
+* Beta testing
+* Release
+
+
+
+
+3. Test Environment
+* Define number of requirement and setup required for each environment
+* Android 10 and later versions
+* IOS 11 and later versions
+* Define backup of test data and restore strategy
+* Databases need to be backed up regularly
+* Synchronize the publication database with the subscription database.
+
+
+
+
+4. Testing Tools
+* Automation and Test management tools needed for test execution
+* Figure out number of open-source as well as commercial tools required, and determine how many users are supported on it and plan accordingly
+-Test Rail
+- Qase
+- Jira
+
+
+
+
+5. Release Control
+* Release management plan with appropriate version history that will make sure test execution for all modification in that release
+* Acceptance Testing
+* Business Acceptance Testing
+* Alpha testing
+* Beta testing
+
+
+
+
+
+
+6.  Risk Analysis
+* List all risks that you can estimate
+* System crashes when there are too many concurrent connections
+* Database Hacking
+* Loss of data during disconnection from the mobile network
+* We will not be able to test the application on all browsers with all screen extensions and on all devices
+* russians will be able to register in the application and ruin everything
+* Give a clear plan to mitigate the risks also a contingency plan
+* Stress testing
+* Security testin
+* Localization testing
+* Testing Equivalence Classes
+* Installation testing
+
+
+
+
+7. Review and Approvals
+* All these activities are reviewed and sign off by the business team, project management, development team, etc.
+* The documents must be reviewed and approved by Product Owner and Project Manager
+* Summary of review changes should be traced at the beginning of the document along with approved date, name, and comment
+* Each of the team members has the right to edit and change documents but all changes must be agreed and documented with an approved date, name and comment
+
+
+
+
+
+
+
+
+*
